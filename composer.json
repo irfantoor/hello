@@ -1,0 +1,24 @@
+{
+    "name": "irfantoor/hello",
+    "type": "library",
+    "description": "Say hello for PHP 5.5",
+    "keywords": ["say","hello"],
+    "homepage": "https://github.com/irfantoor/hello",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irfan TOOR",
+            "email": "email@irfantoor.com",
+            "homepage": "http://irfantoor.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hello": "src"
+        }
+    }
+}
