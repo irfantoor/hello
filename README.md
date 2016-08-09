@@ -1,3 +1,3 @@
 # hello world!
 
-Simle way to say hello.
+Simple way to say hello.
