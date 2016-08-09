@@ -1,8 +1,8 @@
 <?php
-namepace irfantoor/hello;
+namespace IrfanTOOR\Hello;
 
 class Hello {
   function __invoke() {
-    echo 'Hello';
+    return 'Hello';
   }
 }
