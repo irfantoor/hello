@@ -1,7 +1,7 @@
 {
     "name": "irfantoor/hello",
     "type": "library",
-    "description": "Say hello for PHP 5.5",
+    "description": "Say hello",
     "keywords": ["say","hello"],
     "homepage": "https://github.com/irfantoor/hello",
     "license": "MIT",
