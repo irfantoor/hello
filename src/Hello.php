@@ -1,8 +1,12 @@
 <?php
-namespace IrfanTOOR\Hello;
+namespace IrfanTOOR;
 
 class Hello {
-  function __invoke() {
-    return 'Hello';
-  }
+	function __construct() {
+		
+	}
+	
+	function __invoke() {
+		return 'Hello';
+	}
 }

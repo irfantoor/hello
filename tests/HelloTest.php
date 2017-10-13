@@ -1,13 +1,21 @@
 <?php
  
-use IrfanTOOR\Hello\Hello;
+use IrfanTOOR\Hello;
+
+use PHPUnit\Framework\TestCase;
  
-class HelloTest extends PHPUnit_Framework_TestCase {
- 
-  public function testHelloHasCheese()
-  {
-    $hello = new Hello();
-    $this->assertSame($hello->__invoke(), 'Hello');
-  }
- 
+class HelloTest extends TestCase 
+{
+
+	public function testValidInstanceOfHello(): void
+	{
+		$hello = new Hello();
+		$this->assertInstanceOf('IrfanTOOR\Hello', $hello);
+	}
+
+	public function testCanInvoke(): void
+	{
+		$hello = new Hello();
+		$this->assertSame($hello(), 'Hello');
+	}
 }
