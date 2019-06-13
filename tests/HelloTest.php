@@ -1,10 +1,9 @@
 <?php
  
 use IrfanTOOR\Hello;
-
-use PHPUnit\Framework\TestCase;
+use IrfanTOOR\Test;
  
-class HelloTest extends TestCase 
+class HelloTest extends Test
 {
 
 	public function testValidInstanceOfHello(): void
@@ -16,6 +15,6 @@ class HelloTest extends TestCase
 	public function testCanInvoke(): void
 	{
 		$hello = new Hello();
-		$this->assertSame($hello(), 'Hello');
+		$this->assertSame('Hello World!', $hello());
 	}
 }
